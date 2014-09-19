@@ -1,0 +1,9 @@
+1. itstack1.0.1.2 新增了多条件查询
+
+测试：［表导入即可，库名默认为itstack 可以根据自己需求更改］
+| user  | CREATE TABLE `user` (
+  `user_id` int(11) NOT NULL,
+  `user_name` varchar(50) default NULL,
+  `user_pwd` varchar(50) default NULL,
+  PRIMARY KEY  (`user_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8
